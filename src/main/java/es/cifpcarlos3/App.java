@@ -1,4 +1,4 @@
-package org.example;
+package es.cifpcarlos3;
 
 import java.sql.*;
 import java.util.Scanner;
