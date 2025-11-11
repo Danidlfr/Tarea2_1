@@ -25,7 +25,7 @@ public class PaisDAOMariaDB implements PaisDAO {
                 " c.codigo AS cod_continente," +
                 " c.nombre_continente AS nombre_continente" +
                 " FROM t_pais p"+
-                " JOIN t_continente c ON p.cod_continente = c.codigo" +
+                "JOIN t_continente c ON p.cod_continente = c.codigo" +
                 " WHERE c.nombre_continente = 'América'" +
                 " AND p.capital LIKE 'Sa%'" +
                 " ORDER BY p.nombre_pais;";
