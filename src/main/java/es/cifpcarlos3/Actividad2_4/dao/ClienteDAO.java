@@ -6,4 +6,9 @@ import java.util.List;
 
 public interface ClienteDAO {
     List<Cliente> obtenerClientes();
+    void insertarCliente();
+    int obtenerMaxIdCliente();
+    Cliente obtenerClientePorDNI(String dni);
+    Cliente obtenerClientePorId(int id);
+    void eliminarCliente();
 }
