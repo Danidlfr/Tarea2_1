@@ -72,7 +72,6 @@ public class App {
         System.out.println("7) Eliminar cliente (si no tiene cuentas)");
         System.out.println("0) Salir");
     }
-
     public static int leerInt(Scanner sc){
         int opcion = 10;
         try{
